@@ -233,6 +233,11 @@ script = ExtResource("6_g6k8r")
 
 [node name="WeaponController" type="Node2D" parent="."]
 script = ExtResource("7_boad6")
+min_length = 60.0
+max_length = 80.0
+post_constraint_iterations = 1
+springy_tip = false
+line_width = 2.0
 
 [node name="BladeLine" type="Line2D" parent="WeaponController"]
 

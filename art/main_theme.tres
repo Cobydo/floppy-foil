@@ -1,0 +1,13 @@
+[gd_resource type="Theme" load_steps=3 format=3 uid="uid://lutfhky8xdbc"]
+
+[ext_resource type="FontFile" uid="uid://qfjdyttshjec" path="res://art/fonts/PixulBrush.ttf" id="1_7h41l"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_mvgv6"]
+
+[resource]
+default_font = ExtResource("1_7h41l")
+default_font_size = 8
+/font_sizes/e = 4
+/fonts/e = ExtResource("1_7h41l")
+/styles/etst = null
+Panel/styles/panel = SubResource("StyleBoxEmpty_mvgv6")
